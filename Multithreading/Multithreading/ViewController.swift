@@ -11,9 +11,34 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Создаем и запускаем поток
+        let thread1 = ThreadprintDemon()
+        let thread2 = ThreadprintAngel()
+        
+        // Меняем приоритеты
+        thread1.qualityOfService = .userInteractive
+        thread2.qualityOfService = .userInteractive
+        
+        thread1.start()
+        thread2.start()
+        
     }
-
-
+    
 }
 
+class ThreadprintDemon: Thread {
+    override func main() {
+        for _ in (0..<100) {
+            print("1")
+        }
+    }
+}
+
+class ThreadprintAngel: Thread {
+    override func main() {
+        for _ in (0..<100) {
+            print("2")
+        }
+    }
+}
