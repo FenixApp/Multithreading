@@ -18,14 +18,19 @@ class ViewController: UIViewController {
         print(infinityThread.isExecuting)
         
         // Подождем некоторое время, а затем отменяем выполнение потока
-        sleep(5)
+        sleep(2)
         print(infinityThread.isCancelled)
         
         // Отменяем тут
-        infinityThread.cancel()
+        while !infinityThread.isFinished {
+            if infinityThread.counter >= 5 {
+                infinityThread.cancel()
+            } else {
+                sleep(2)
+            }
+        }
         print(infinityThread.isFinished)
     }
-    
 }
 
 class InfinityLoop: Thread {
