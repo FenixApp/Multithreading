@@ -8,12 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print("A")
+        
+        DispatchQueue.main.async {
+            print("B")
+        }
+        
+        print("C")
     }
-
-
+    
+    
 }
+
+/*
+ Выведется такой порядок: A, C, B, потому что A и C итак выполняются на главной очереди, а B только ставится в очередь, да и еще асинхронно.
+ */
 
