@@ -17,8 +17,11 @@ class ViewController: UIViewController {
         let thread2 = ThreadprintAngel()
         
         // Меняем приоритеты
-        thread1.qualityOfService = .userInteractive
-        thread2.qualityOfService = .userInteractive
+//        thread1.qualityOfService = .userInteractive
+//        thread2.qualityOfService = .background
+        
+//        thread1.qualityOfService = .background
+//        thread2.qualityOfService = .userInteractive
         
         thread1.start()
         thread2.start()
