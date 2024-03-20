@@ -23,6 +23,9 @@ class ViewController: UIViewController {
 //        thread1.qualityOfService = .background
 //        thread2.qualityOfService = .userInteractive
         
+        thread1.qualityOfService = .userInitiated
+        thread2.qualityOfService = .userInitiated
+        
         thread1.start()
         thread2.start()
         
