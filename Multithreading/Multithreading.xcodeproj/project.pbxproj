@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		C4BD9F3F2BA9521F003418C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F3E2BA9521F003418C8 /* AppDelegate.swift */; };
 		C4BD9F412BA9521F003418C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F402BA9521F003418C8 /* SceneDelegate.swift */; };
-		C4BD9F432BA9521F003418C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F422BA9521F003418C8 /* ViewController.swift */; };
+		C4BD9F432BA9521F003418C8 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F422BA9521F003418C8 /* Task1.swift */; };
 		C4BD9F462BA9521F003418C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C4BD9F452BA9521F003418C8 /* Base */; };
 		C4BD9F482BA95220003418C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BD9F472BA95220003418C8 /* Assets.xcassets */; };
 		C4BD9F4B2BA95220003418C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C4BD9F4A2BA95220003418C8 /* Base */; };
+		C4BD9F552BB03438003418C8 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F542BB03438003418C8 /* Task2.swift */; };
+		C4BD9F572BB037F4003418C8 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F562BB037F4003418C8 /* Task3.swift */; };
+		C4BD9F592BB04099003418C8 /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F582BB04099003418C8 /* Task4.swift */; };
+		C4BD9F5B2BB041D9003418C8 /* Task5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F5A2BB041D9003418C8 /* Task5.swift */; };
+		C4BD9F5D2BB04467003418C8 /* Task6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F5C2BB04467003418C8 /* Task6.swift */; };
+		C4BD9F5F2BB052AD003418C8 /* Task7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F5E2BB052AD003418C8 /* Task7.swift */; };
+		C4BD9F612BB05356003418C8 /* Task8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD9F602BB05356003418C8 /* Task8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4BD9F3B2BA9521F003418C8 /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BD9F3E2BA9521F003418C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4BD9F402BA9521F003418C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4BD9F422BA9521F003418C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4BD9F422BA9521F003418C8 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
 		C4BD9F452BA9521F003418C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4BD9F472BA95220003418C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BD9F4A2BA95220003418C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4BD9F4C2BA95220003418C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BD9F542BB03438003418C8 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		C4BD9F562BB037F4003418C8 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		C4BD9F582BB04099003418C8 /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
+		C4BD9F5A2BB041D9003418C8 /* Task5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5.swift; sourceTree = "<group>"; };
+		C4BD9F5C2BB04467003418C8 /* Task6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task6.swift; sourceTree = "<group>"; };
+		C4BD9F5E2BB052AD003418C8 /* Task7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task7.swift; sourceTree = "<group>"; };
+		C4BD9F602BB05356003418C8 /* Task8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,14 @@
 			children = (
 				C4BD9F3E2BA9521F003418C8 /* AppDelegate.swift */,
 				C4BD9F402BA9521F003418C8 /* SceneDelegate.swift */,
-				C4BD9F422BA9521F003418C8 /* ViewController.swift */,
+				C4BD9F422BA9521F003418C8 /* Task1.swift */,
+				C4BD9F542BB03438003418C8 /* Task2.swift */,
+				C4BD9F562BB037F4003418C8 /* Task3.swift */,
+				C4BD9F582BB04099003418C8 /* Task4.swift */,
+				C4BD9F5A2BB041D9003418C8 /* Task5.swift */,
+				C4BD9F5C2BB04467003418C8 /* Task6.swift */,
+				C4BD9F5E2BB052AD003418C8 /* Task7.swift */,
+				C4BD9F602BB05356003418C8 /* Task8.swift */,
 				C4BD9F442BA9521F003418C8 /* Main.storyboard */,
 				C4BD9F472BA95220003418C8 /* Assets.xcassets */,
 				C4BD9F492BA95220003418C8 /* LaunchScreen.storyboard */,
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BD9F432BA9521F003418C8 /* ViewController.swift in Sources */,
+				C4BD9F5F2BB052AD003418C8 /* Task7.swift in Sources */,
+				C4BD9F612BB05356003418C8 /* Task8.swift in Sources */,
+				C4BD9F432BA9521F003418C8 /* Task1.swift in Sources */,
+				C4BD9F572BB037F4003418C8 /* Task3.swift in Sources */,
+				C4BD9F5B2BB041D9003418C8 /* Task5.swift in Sources */,
 				C4BD9F3F2BA9521F003418C8 /* AppDelegate.swift in Sources */,
+				C4BD9F592BB04099003418C8 /* Task4.swift in Sources */,
 				C4BD9F412BA9521F003418C8 /* SceneDelegate.swift in Sources */,
+				C4BD9F552BB03438003418C8 /* Task2.swift in Sources */,
+				C4BD9F5D2BB04467003418C8 /* Task6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
